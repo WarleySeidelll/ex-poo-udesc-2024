@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Contabancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Testecontabancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Testecarro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Testealuno.executor": "Run",
+    "Application.Testecarro.executor": "Run",
     "Application.Testecirculo.executor": "Run",
     "Application.Testecontabancaria.executor": "Run",
     "Application.Testeretangulo.executor": "Run",
@@ -52,9 +53,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercicio2oo.Testecontabancaria">
+  <component name="RunManager" selected="Application.Testecarro">
     <configuration name="Testealuno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testealuno" />
+      <module name="ex-poo-udesc-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio2oo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testecarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testecarro" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -92,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercicio1oo.Testeretangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio1oo.Testeretangulo" />
-      <module name="ex-poo-udesc-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercicio1oo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercicio2oo.Testecontabancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testecontabancaria" />
       <module name="ex-poo-udesc-2024" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testecarro" />
         <item itemvalue="Application.exercicio2oo.Testecontabancaria" />
         <item itemvalue="Application.Testecirculo" />
         <item itemvalue="Application.Testeretangulo" />
         <item itemvalue="Application.Testealuno" />
-        <item itemvalue="Application.exercicio1oo.Testeretangulo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,7 @@
       <workItem from="1725995401318" duration="5823000" />
       <workItem from="1726003936255" duration="2054000" />
       <workItem from="1726061330035" duration="5184000" />
-      <workItem from="1726140328421" duration="3163000" />
+      <workItem from="1726140328421" duration="4200000" />
     </task>
     <servers />
   </component>
