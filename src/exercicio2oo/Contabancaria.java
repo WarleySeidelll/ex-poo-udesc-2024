@@ -4,8 +4,7 @@ package exercicio2oo;
 public class Contabancaria {
     private String numero;
     private double saldo;
-    private double depositar;
-    private double saque;
+
     public void setNumero(String numeroconta,double saldoconta){
         this.numero= numeroconta;
         this.saldo = saldoconta;
