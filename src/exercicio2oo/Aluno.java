@@ -5,7 +5,6 @@ public class Aluno {
     private String nome;
     private int idade;
     private double nota1,nota2,nota3;
-    private double media;
     public void setAluno(String nomealuno,int idadealuno,double n1,double n2,double n3) {
         this.nome = nomealuno;
         this.idade = idadealuno;
@@ -18,7 +17,6 @@ public class Aluno {
     }
     public double getMedia(){
         double media = setMedia();
-
         if(media>=7){
             System.out.println("Aprovado");
         }else{
@@ -32,6 +30,4 @@ public class Aluno {
         System.out.println("sua terceira nota:"+this.nota3);
         System.out.println("sua media:"+this.getMedia());
     }
-
-
 }
