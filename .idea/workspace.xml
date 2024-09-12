@@ -52,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Testealuno">
+  <component name="RunManager" selected="Application.Testecirculo">
     <configuration name="Testealuno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testealuno" />
       <module name="ex-poo-udesc-2024" />
@@ -120,10 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testecirculo" />
         <item itemvalue="Application.Testealuno" />
         <item itemvalue="Application.Testecarro" />
         <item itemvalue="Application.exercicio2oo.Testecontabancaria" />
-        <item itemvalue="Application.Testecirculo" />
         <item itemvalue="Application.Testeretangulo" />
       </list>
     </recent_temporary>

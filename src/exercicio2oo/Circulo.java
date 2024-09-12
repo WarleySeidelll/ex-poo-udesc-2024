@@ -2,7 +2,6 @@
 package exercicio2oo;
 
 public class Circulo {
-    private double tamanho;
     private double raio;
     private double perimetro;
     private double area;
