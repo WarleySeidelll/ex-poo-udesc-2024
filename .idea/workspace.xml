@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio2oo/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio2oo/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +31,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Testealuno.executor": "Run",
-    "Application.Testecarro.executor": "Run",
-    "Application.Testecirculo.executor": "Run",
-    "Application.Testecontabancaria.executor": "Run",
-    "Application.Testeretangulo.executor": "Run",
-    "Application.exercicio1oo.Testeretangulo.executor": "Run",
-    "Application.exercicio2oo.Testecontabancaria.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Testealuno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecarro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecirculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecontabancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testeretangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicio1oo.Testeretangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicio2oo.Testecontabancaria.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Testecirculo">
+}</component>
+  <component name="RunManager" selected="Application.TesteLivro">
+    <configuration name="TesteLivro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteLivro" />
+      <module name="ex-poo-udesc-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio2oo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testealuno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testealuno" />
       <module name="ex-poo-udesc-2024" />
@@ -92,20 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testeretangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testeretangulo" />
-      <module name="ex-poo-udesc-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercicio2oo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercicio2oo.Testecontabancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Testecontabancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testecontabancaria" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteLivro" />
         <item itemvalue="Application.Testecirculo" />
         <item itemvalue="Application.Testealuno" />
         <item itemvalue="Application.Testecarro" />
         <item itemvalue="Application.exercicio2oo.Testecontabancaria" />
-        <item itemvalue="Application.Testeretangulo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +146,9 @@
       <workItem from="1725995401318" duration="5823000" />
       <workItem from="1726003936255" duration="2054000" />
       <workItem from="1726061330035" duration="5184000" />
-      <workItem from="1726140328421" duration="4839000" />
+      <workItem from="1726140328421" duration="5233000" />
+      <workItem from="1726233496590" duration="123000" />
+      <workItem from="1726264766777" duration="221000" />
     </task>
     <servers />
   </component>
