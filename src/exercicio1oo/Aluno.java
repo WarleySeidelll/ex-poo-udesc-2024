@@ -7,26 +7,24 @@ public class Aluno {
     double nota1;
     double nota2;
     double nota3;
-    double media;
+    double media=0;
 
-
-    public void CalcularMedia(double media) {
-      media = nota1+nota2+nota3/3;
-      System.out.printf("A média do %s ", nome ,  "foi : %f", media);
+    public double getMedia() {
+        nota2+=nota1;
+        nota3+=nota2;
+        return media = (nota3 / 3);
     }
-
-    public void Situacao() {
+    public void setMedia(double media) {
+        this.media = media;
+    }
+    public String getSituacao() {
         if(media>=7){
-         System.out.printf("Aprovado");
+            return "Aprovado";
         }else{
-            System.out.printf("Reprovado");
+            return "Reprovado";
         }
     }
     public void setSituacao() {
         this.situacao = situacao;
-    }
-    public void setMedia(double media) {
-
-        this.media = media;
     }
 }
