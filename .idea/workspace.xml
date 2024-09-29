@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/TesteCarro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio2oo/Circulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TesteCarro">
+  <component name="RunManager" selected="Application.TesteCriculo">
     <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio1oo.TesteAluno" />
       <module name="ex-poo-udesc-2024" />
@@ -87,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testealuno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio2oo.Testealuno" />
+    <configuration name="TesteCriculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteCriculo" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteCriculo" />
         <item itemvalue="Application.TesteCarro" />
         <item itemvalue="Application.exercicio2oo.TesteAluno" />
         <item itemvalue="Application.TesteAluno" />
         <item itemvalue="Application.Testecirculo" />
-        <item itemvalue="Application.Testealuno" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,7 @@
       <workItem from="1727551480418" duration="1897000" />
       <workItem from="1727553400612" duration="11879000" />
       <workItem from="1727579463025" duration="512000" />
-      <workItem from="1727617299871" duration="2396000" />
+      <workItem from="1727617299871" duration="2724000" />
     </task>
     <servers />
   </component>
