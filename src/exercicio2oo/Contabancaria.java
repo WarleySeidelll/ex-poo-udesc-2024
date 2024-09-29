@@ -5,20 +5,43 @@ public class Contabancaria {
     private String numero;
     private double saldo;
 
-    public void setNumero(String numeroconta,double saldoconta){
+    public void numero(String numeroconta,double saldoconta){
         this.numero= numeroconta;
         this.saldo = saldoconta;
     }
-    public double getDepositar(double deposito){
-        return saldo += deposito;
+    public double depositar(double deposito){
+        if(deposito>0){
+            System.out.printf("\nVocê depositou %.2f R$", deposito);
+          return this.saldo += deposito;
+        }else{
+          System.out.printf("\nNão é possível depositar esse valor!");
+          return 0;
+        }
     }
-    public double getSaque(double sacar){
-        return saldo -= sacar;
+  public double saque(double sacar){
+        if(sacar>0 && sacar<=getSaldo()){
+            System.out.printf("\nVocê sacou %.2f R$",sacar);
+            return this.saldo-=sacar;
+        }else{
+            System.out.printf("\nNão é possível sacar o valor, seu saldo disponível é de %.2f R$",getSaldo());
+            return 0;
+        }
     }
-    public void getImprimir(){
-        System.out.println("o numero da sua conta é:"+numero);
-        System.out.println("o saldo da sua conta é:"+saldo);
+    public void imprimirInformacao(){
+        System.out.printf("\nO numero da sua conta é %s",getNumero());
+        System.out.printf("\nO saldo da sua conta é %.2f R$",getSaldo());
+    }
+    public double getSaldo(){
+        return this.saldo;
+    }
+    public String getNumero() {
+        return this.numero;
+    }
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
-
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 }

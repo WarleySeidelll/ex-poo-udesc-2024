@@ -3,25 +3,25 @@ package exercicio2oo;
 
 public class Circulo {
     private double raio;
-    private double perimetro;
-    private double area;
-    private double diametro;
-    public void setCirculo(double tamcirculo) {
-        this.raio = tamcirculo;
+
+    public double perimetro() {
+    return 2*Math.PI*getRaio();
     }
-    public double getPerimetro() {
-        return perimetro=2*Math.PI*raio;
+    public double diametro() {
+       return 2*getRaio();
     }
-    public double getDiametro() {
-        return diametro=2*raio;
+    public double area() {
+        return Math.PI*Math.pow(raio,2);
     }
-    public double getArea() {
-        return area=Math.PI*Math.pow(raio,2);
+    public void imprimirCirculo() {
+        System.out.printf("\nPerimetro : %.2f",perimetro());
+        System.out.printf("\nDiametro: %.2f",diametro());
+        System.out.printf("\nArea: %.2f",area());
     }
-    public void getCirculo() {
-        System.out.println("Tamanho:"+raio);
-        System.out.println("Perimetro:"+getPerimetro());
-        System.out.println("Diametro:"+getDiametro());
-        System.out.println("Area:"+getArea());
+    public double getRaio() {
+        return this.raio;
+    }
+    public void setRaio(double raio) {
+        this.raio = raio;
     }
 }

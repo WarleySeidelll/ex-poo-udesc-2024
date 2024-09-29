@@ -1,33 +1,61 @@
 //Rafael e Warley e Pablo
 package exercicio2oo;
 
+import java.io.PrintStream;
+
 public class Aluno {
     private String nome;
     private int idade;
     private double nota1,nota2,nota3;
-    public void setAluno(String nomealuno,int idadealuno,double n1,double n2,double n3) {
-        this.nome = nomealuno;
-        this.idade = idadealuno;
-        this.nota1 = n1;
-        this.nota2 = n2;
-        this.nota3 = n3;
+
+    public  double calcularMedia(){
+      return (getNota1()+getNota2()+getNota3())/3;
     }
-    public double setMedia(){
-        return (nota1+nota2+nota3)/3;
-    }
-    public double getMedia(){
-        double media = setMedia();
-        if(media>=7){
-            System.out.println("Aprovado");
+    public void verificarSituacao(){
+
+        if(calcularMedia()>=7){
+            System.out.printf("A média do %s  foi : %.2f \nVocê foi Aprovado!" , nome, calcularMedia());
         }else{
-            System.out.println("Reprovado");
-        }return media;
+            System.out.printf("A média do %s  foi : %.2f \nVocê foi Reprovado!", nome, calcularMedia());
+        }
     }
-    public void getAluno(){
-        System.out.println("seu nome:"+this.nome+"\nsua idade:"+this.idade);
-        System.out.println("sua primeira nota:"+this.nota1);
-        System.out.println("sua segunda nota:"+this.nota2);
-        System.out.println("sua terceira nota:"+this.nota3);
-        System.out.println("sua media:"+this.getMedia());
+
+    public int getidade(){
+        return this.idade;
     }
+    public double getNota1() {
+        return this.nota1;
+    }
+    public double getNota2() {
+        return this.nota2;
+    }
+
+    public double getNota3() {
+        return this.nota3;
+    }
+    public String getNome() {
+        return this.nome;
+    }
+
+    public int getIdade() {
+        return this.idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setNota1(double nota1) {
+        this.nota1 = nota1;
+    }
+    public void setNota2(double nota2) {
+        this.nota2 = nota2;
+    }
+    public void setNota3(double nota3) {
+        this.nota3 = nota3;
+    }
+
 }

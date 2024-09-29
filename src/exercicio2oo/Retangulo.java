@@ -4,14 +4,23 @@ package exercicio2oo;
 public class Retangulo {
     private double ld1;
     private double ld2;
-    public void setRetangulo(double lado1, double lado2) {
-        this.ld1 = lado1;
-        this.ld2 = lado2;
+
+    public double calcularArea(){
+        return this.getLd1() * this.getLd2();
     }
-    public double setArea() {
-        return (ld1*ld2);
+    public void imprimirArea(){
+        System.out.printf("A área do retângulo é %.2f: ",calcularArea());
     }
-    public void getRetangulo() {
-        System.out.println("o retangulo tem:"+setArea()+" de area");
+    public double getLd1() {
+        return this.ld1;
+    }
+    public double getLd2() {
+        return this.ld2;
+    }
+    public void setLd1(double ld1) {
+        this.ld1 = ld1;
+    }
+    public void setLd2(double ld2) {
+        this.ld2 = ld2;
     }
 }

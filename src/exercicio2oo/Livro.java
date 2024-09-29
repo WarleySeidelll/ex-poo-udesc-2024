@@ -12,38 +12,45 @@ public class Livro {
         this.autor = autor;
         this.emprestado = false;
     }
-
     public void alugar() {
-        emprestado = true;
-        System.out.println("O livro " + getNome() + " foi alugado com sucesso.");
-
+        if (getEmprestado()) {
+            System.out.printf("\nO livro  %s está emprestado !", getNome());
+        } else {
+            emprestado = true;
+            System.out.printf("\nO livro  %s foi alugado com sucesso.", getNome());
+        }
     }
     public void devolver() {
-        emprestado =false;
-        System.out.println("O livro " + getNome()  + " foi devolvido com sucesso.");
-
+        if (!getEmprestado()) {
+            System.out.printf("\nO livro  %s não está emprestado! ", getNome());
+        } else {
+            emprestado = false;
+            System.out.printf("\nO livro  %s foi devolvido com sucesso.", getNome());
+        }
     }
     public void exibirDisponibilidade() {
         if (getEmprestado()==false) {
-            System.out.println("Nome: " + getNome() + " | Autor: " + getAutor() + "| Disponível");
+            System.out.println("\n Nome: " + getNome() + " | Autor: " + getAutor() + "| Disponível");
         } else if(getEmprestado()==true) {
-            System.out.println("Nome: " + getNome() + " | Autor: " + getAutor()  + "| Não disponível");
+            System.out.println("\n Nome: " + getNome() + " | Autor: " + getAutor()  + "| Não disponível");
         }
     }
-
     public String getNome() {
-        return nome;
+        return this.nome;
     }
     public void setNome(String nome) {
         this.nome = nome;
     }
     public String getAutor() {
-        return autor;
+        return this.autor;
     }
     public void setAutor(String autor) {
         this.autor = autor;
     }
     public boolean getEmprestado() {
-        return emprestado;
+        return this.emprestado;
+}
+public void setEmprestado(boolean emprestado) {
+        this.emprestado = emprestado;
 }
 }
