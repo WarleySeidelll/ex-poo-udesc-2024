@@ -29,11 +29,9 @@ public class Carro {
 
     @Override
     public String toString() {
-           return "Carro{" +
-                   "modelo=" + modelo +
-                   "velocidade=" + velocidade +
-                   '}';
+        return "Modelo=" + getModelo() + " \n" + "Velocidade=" + getvelocidade() + "Km/h";
     }
+
     public String getModelo() {
         return modelo;
     }
