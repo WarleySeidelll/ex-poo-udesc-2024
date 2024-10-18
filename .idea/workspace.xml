@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteRetangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     "Application.exercicio2oo.TesteAluno.executor": "Run",
     "Application.exercicio2oo.Testecontabancaria.executor": "Run",
     "Application.exercicios3oo.TesteLivro.executor": "Run",
+    "Application.exercicios3oo.TesteRetangulo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -65,22 +66,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercicios3oo.TesteLivro">
+  <component name="RunManager" selected="Application.exercicios3oo.TesteRetangulo">
     <configuration name="TesteContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteContaBancaria" />
-      <module name="ex-poo-udesc-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercicio2oo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteLivro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteLivro" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercicios3oo.TesteRetangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteRetangulo" />
+      <module name="ex-poo-udesc-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios3oo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercicios3oo.TesteRetangulo" />
         <item itemvalue="Application.exercicios3oo.TesteLivro" />
         <item itemvalue="Application.Testecarro" />
         <item itemvalue="Application.TesteContaBancaria" />
         <item itemvalue="Application.TesteRetangulo" />
-        <item itemvalue="Application.TesteLivro" />
       </list>
     </recent_temporary>
   </component>
