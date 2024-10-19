@@ -11,7 +11,7 @@ public class TesteContaBancaria {
 
         double depositar, sacar;
 
-        System.out.printf("Digite o Titulr da Conta:  ");
+        System.out.printf("Digite o Titular da Conta:  ");
         conta.setTitular(sc.next());
 
         System.out.printf("\nLista de bancos válidos:");
