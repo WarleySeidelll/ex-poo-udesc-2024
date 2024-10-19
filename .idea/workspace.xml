@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteRetangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteContaBancaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,14 @@
     "Application.exercicio1oo.Testeretangulo.executor": "Run",
     "Application.exercicio2oo.TesteAluno.executor": "Run",
     "Application.exercicio2oo.Testecontabancaria.executor": "Run",
+    "Application.exercicios3oo.TesteContaBancaria.executor": "Run",
     "Application.exercicios3oo.TesteLivro.executor": "Run",
     "Application.exercicios3oo.TesteRetangulo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/programas/curso-java/clinica",
+    "last_opened_file_path": "C:/programas/java/ex-poo-udesc-2024",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -66,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercicios3oo.TesteRetangulo">
+  <component name="RunManager" selected="Application.exercicios3oo.TesteContaBancaria">
     <configuration name="TesteContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteContaBancaria" />
       <module name="ex-poo-udesc-2024" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteRetangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteRetangulo" />
+    <configuration name="Testecarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.Testecarro" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercicio2oo.*" />
+          <option name="PATTERN" value="exercicios3oo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testecarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicios3oo.Testecarro" />
+    <configuration name="exercicios3oo.TesteContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteContaBancaria" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +135,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercicios3oo.TesteContaBancaria" />
         <item itemvalue="Application.exercicios3oo.TesteRetangulo" />
         <item itemvalue="Application.exercicios3oo.TesteLivro" />
         <item itemvalue="Application.Testecarro" />
         <item itemvalue="Application.TesteContaBancaria" />
-        <item itemvalue="Application.TesteRetangulo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -165,6 +174,9 @@
       <workItem from="1727553400612" duration="11879000" />
       <workItem from="1727579463025" duration="512000" />
       <workItem from="1727617299871" duration="5795000" />
+      <workItem from="1729294728766" duration="30000" />
+      <workItem from="1729294764684" duration="20000" />
+      <workItem from="1729303892839" duration="3966000" />
     </task>
     <servers />
   </component>
