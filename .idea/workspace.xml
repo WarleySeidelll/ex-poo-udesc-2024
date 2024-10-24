@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteAluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/TesteContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteContaBancaria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +67,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.exercicios3oo.TesteContaBancaria">
-    <configuration name="TesteContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio2oo.TesteContaBancaria" />
+  <component name="RunManager" selected="Application.TesteAluno">
+    <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteAluno" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercicio2oo.*" />
+          <option name="PATTERN" value="exercicios3oo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,21 +135,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteAluno" />
         <item itemvalue="Application.exercicios3oo.TesteContaBancaria" />
         <item itemvalue="Application.exercicios3oo.TesteRetangulo" />
         <item itemvalue="Application.exercicios3oo.TesteLivro" />
         <item itemvalue="Application.Testecarro" />
-        <item itemvalue="Application.TesteContaBancaria" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
