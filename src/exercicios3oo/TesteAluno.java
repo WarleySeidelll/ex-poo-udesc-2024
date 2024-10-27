@@ -12,7 +12,7 @@ public class TesteAluno {
 
         System.out.printf("\nDigite o nome do Aluno : ");
         a1.setNome(sc.nextLine());
-        System.out.printf("\nDigite a idade do %s : ",a1.getNome());
+        System.out.printf("\nDigite a idade do %s : ", a1.getNome());
         a1.setIdade(sc.nextInt());
 
         do {
@@ -26,27 +26,25 @@ public class TesteAluno {
             opcaoTesteAluno = sc.nextInt();
             switch (opcaoTesteAluno) {
                 case 1:
-                a1.inserirnota();
+                    a1.inserirnota();
                     break;
                 case 2:
-                a1.calcularMedia();
+                    a1.calcularMedia();
                     break;
                 case 3:
-                a1.verificarSituacao();
+                    a1.verificarSituacao();
                     break;
                 case 4:
-               System.out.printf(a1.toString());
+                    System.out.printf(a1.toString());
                     break;
             }
 
-        }while (opcaoTesteAluno != 0);
+        } while (opcaoTesteAluno != 0);
 
 
     }
 
 
-
-
-    }
+}
 
 
