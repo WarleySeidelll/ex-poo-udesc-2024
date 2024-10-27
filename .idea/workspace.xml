@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteCirculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/Testecarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteCarro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,39 +35,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TesteAluno.executor": "Run",
-    "Application.TesteCarro.executor": "Run",
-    "Application.TesteContaBancaria.executor": "Run",
-    "Application.TesteCriculo.executor": "Run",
-    "Application.TesteLivro.executor": "Run",
-    "Application.TesteRetangulo.executor": "Run",
-    "Application.Testealuno.executor": "Run",
-    "Application.Testecarro.executor": "Run",
-    "Application.Testecirculo.executor": "Run",
-    "Application.Testecontabancaria.executor": "Run",
-    "Application.Testeretangulo.executor": "Run",
-    "Application.exercicio1oo.Testeretangulo.executor": "Run",
-    "Application.exercicio2oo.TesteAluno.executor": "Run",
-    "Application.exercicio2oo.Testecontabancaria.executor": "Run",
-    "Application.exercicios3oo.TesteContaBancaria.executor": "Run",
-    "Application.exercicios3oo.TesteLivro.executor": "Run",
-    "Application.exercicios3oo.TesteRetangulo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/programas/java/ex-poo-udesc-2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TesteAluno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteCarro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteCirculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteCriculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteLivro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteRetangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testealuno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecarro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecirculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testecontabancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testeretangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicio1oo.Testeretangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicio2oo.TesteAluno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicio2oo.Testecontabancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicios3oo.TesteContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicios3oo.TesteLivro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercicios3oo.TesteRetangulo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programas/java/ex-poo-udesc-2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TesteCarro">
+}</component>
+  <component name="RunManager" selected="Application.TesteCirculo">
     <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteAluno" />
       <module name="ex-poo-udesc-2024" />
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteContaBancaria" />
+    <configuration name="TesteCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteCirculo" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -135,13 +136,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteCirculo" />
         <item itemvalue="Application.TesteCarro" />
         <item itemvalue="Application.TesteAluno" />
-        <item itemvalue="Application.exercicios3oo.TesteContaBancaria" />
-        <item itemvalue="Application.exercicios3oo.TesteRetangulo" />
-        <item itemvalue="Application.exercicios3oo.TesteLivro" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -170,6 +177,9 @@
       <workItem from="1729294764684" duration="20000" />
       <workItem from="1729303892839" duration="4612000" />
       <workItem from="1729345232322" duration="1158000" />
+      <workItem from="1729997926640" duration="38000" />
+      <workItem from="1729997973371" duration="1200000" />
+      <workItem from="1730036512952" duration="1782000" />
     </task>
     <servers />
   </component>
