@@ -16,6 +16,7 @@ public class ContaBancaria {
     }
 
     public ContaBancaria(String agencia, String titular, int numeroConta, double saldo) {
+        this();
         this.agencia = agencia;
         this.titular = titular;
         this.numeroConta = numeroConta;
