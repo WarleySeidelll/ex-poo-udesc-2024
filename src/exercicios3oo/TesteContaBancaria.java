@@ -7,11 +7,12 @@ public class TesteContaBancaria {
         Scanner sc = new Scanner(System.in);
         int opcao = 0;
 
-        ContaBancaria conta  = new ContaBancaria();
+        ContaBancaria conta = new ContaBancaria();
 
         double depositar, sacar;
 
-        System.out.printf("Digite o Titular da Conta:  ");
+        System.out.printf("Digite o Titula" +
+                "]r da Conta:  ");
         conta.setTitular(sc.next());
 
         System.out.printf("\nLista de bancos válidos:");
@@ -39,25 +40,25 @@ public class TesteContaBancaria {
             System.out.printf("\n 0-Sair");
             System.out.printf("\n Escolha uma opção: ");
             opcao = sc.nextInt();
-        switch (opcao) {
-            case 1:
-            System.out.printf("\nQual o valor deseja depositar :  ");
-            depositar = sc.nextDouble();
-            conta.depositar(depositar);
-            break;
+            switch (opcao) {
+                case 1:
+                    System.out.printf("\nQual o valor deseja depositar :  ");
+                    depositar = sc.nextDouble();
+                    conta.depositar(depositar);
+                    break;
                 case 2:
-                System.out.printf("\nQual o valor deseja sacar :  ");
-                sacar = sc.nextDouble();
-                conta.sacar(sacar);
-                break;
-                    case 3:
-                        conta.saldoDisponivel();
-                        break;
-                        case 4:
-                            System.out.printf(conta.toString());
-        }
+                    System.out.printf("\nQual o valor deseja sacar :  ");
+                    sacar = sc.nextDouble();
+                    conta.sacar(sacar);
+                    break;
+                case 3:
+                    conta.saldoDisponivel();
+                    break;
+                case 4:
+                    System.out.printf(conta.toString());
+            }
 
-        }while (opcao != 0);
+        } while (opcao != 0);
 
         sc.close();
 

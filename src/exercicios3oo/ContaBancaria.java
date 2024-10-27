@@ -3,7 +3,7 @@ package exercicios3oo;
 import java.util.Scanner;
 
 public class ContaBancaria {
-  Scanner entrada = new Scanner(System.in);
+    Scanner entrada = new Scanner(System.in);
     private String agencia;
     private String titular;
     private int numeroConta;
@@ -24,14 +24,14 @@ public class ContaBancaria {
 
     public void verificarBanco() {
         do {
-        System.out.printf("\nDigite o código do banco: ");
-        String codigoBanco = entrada.nextLine();
+            System.out.printf("\nDigite o código do banco: ");
+            String codigoBanco = entrada.nextLine();
 
             if (codigoBanco.equals("001")) {
                 System.out.println("Banco válido: Banco do Brasil.");
                 setAgencia("Banco do Brasil");
                 bancoValido = true;
-            }   else if (codigoBanco.equals("033")) {
+            } else if (codigoBanco.equals("033")) {
                 System.out.println("Banco válido: Santander.");
                 setAgencia(" Banco Santander");
                 bancoValido = true;
@@ -78,7 +78,7 @@ public class ContaBancaria {
         }
     }
 
-    public void  saldoDisponivel() {
+    public void saldoDisponivel() {
         System.out.printf("\n");
         System.out.printf("O seu saldo é de R$ %.2f\n", getSaldo());
     }
@@ -96,8 +96,8 @@ public class ContaBancaria {
     }
 
     @Override
-    public String toString(){
-        return  "\nAgencia | " + agencia + "\n" +
+    public String toString() {
+        return "\nAgencia | " + agencia + "\n" +
                 "Titutar | " + titular + "\n" +
                 "Numero Conta | " + numeroConta + "\n" +
                 "Saldo | " + saldo + "\n";
