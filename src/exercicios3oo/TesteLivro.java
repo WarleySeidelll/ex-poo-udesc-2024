@@ -1,14 +1,12 @@
 package exercicios3oo;
 
-import exercicio2oo.Livro;
-
 import java.util.Scanner;
 
 public class TesteLivro {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        exercicio2oo.Livro livro1 = new Livro("", "");
+        Livro livro1 = new Livro("", "");
         System.out.printf("Qual o nome do livro : ");
         String nome = sc.nextLine();
         livro1.setNome(nome);
@@ -40,5 +38,5 @@ public class TesteLivro {
 
         sc.close();
     }
-    }
+}
 

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9abe091-bb56-4867-8cc1-ab085911b74f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/TesteContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios3oo/TesteLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios3oo/TesteLivro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TesteContaBancaria">
+  <component name="RunManager" selected="Application.TesteLivro">
     <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteAluno" />
       <module name="ex-poo-udesc-2024" />
@@ -120,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteRetangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteRetangulo" />
+    <configuration name="TesteLivro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios3oo.TesteLivro" />
       <module name="ex-poo-udesc-2024" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteLivro" />
         <item itemvalue="Application.TesteContaBancaria" />
         <item itemvalue="Application.TesteCirculo" />
         <item itemvalue="Application.TesteCarro" />
@@ -179,7 +181,7 @@
       <workItem from="1729345232322" duration="1158000" />
       <workItem from="1729997926640" duration="38000" />
       <workItem from="1729997973371" duration="1200000" />
-      <workItem from="1730036512952" duration="3743000" />
+      <workItem from="1730036512952" duration="4174000" />
     </task>
     <servers />
   </component>
