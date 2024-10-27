@@ -21,6 +21,8 @@ public void verificarRaio() {
 
     public double calcularPerimetro() {
             return 2*Math.PI*getRaio();
+
+
     }
     public double calcularDiametro() {
         return 2*getRaio();
