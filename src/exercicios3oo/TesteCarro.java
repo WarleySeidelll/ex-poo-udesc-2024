@@ -1,4 +1,5 @@
 package exercicios3oo;
+
 import java.util.Scanner;
 
 
@@ -17,7 +18,7 @@ public class TesteCarro {
         System.out.printf("\nQual o ano do Carro : ");
         carro.setAno(sc.nextInt());
 
-        do{
+        do {
             System.out.printf("\n");
             System.out.printf("\nO que você deseja fazer : ");
             System.out.printf("\n1 | Ligar o Carro! ");
@@ -29,31 +30,31 @@ public class TesteCarro {
             System.out.printf("\n0 | Para Sair! ");
             opcao = sc.nextInt();
 
-        switch(opcao){
+            switch (opcao) {
 
-            case 1:
-                carro.ligarCarro();
-            break;
+                case 1:
+                    carro.ligarCarro();
+                    break;
 
-            case 2:
-                carro.acelerar();
-                break;
-            case 3 :
-                carro.freiar();
-                break;
-            case 4 :
-                System.out.printf(carro.toString());
-                break;
-            case 5 :
-                carro.exibirvelocidadeAtual();
-                break;
-                case 6 :
+                case 2:
+                    carro.acelerar();
+                    break;
+                case 3:
+                    carro.freiar();
+                    break;
+                case 4:
+                    System.out.printf(carro.toString());
+                    break;
+                case 5:
+                    carro.exibirvelocidadeAtual();
+                    break;
+                case 6:
                     carro.desligarCarro();
                     break;
-        }
+            }
 
 
-        }while(opcao!=0);
+        } while (opcao != 0);
 
         sc.close();
 
