@@ -6,14 +6,17 @@ public class TesteAluno {
     public static void main(String[] args) {
 
         int opcaoTesteAluno;
-        Aluno a1 = new Aluno();
+        Aluno a1 = new Aluno("", 0, 0, 0, 0, "");
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.printf("\nDigite a matéria :");
+        a1.setMateria(sc.nextLine());
         System.out.printf("\nDigite o nome do Aluno : ");
         a1.setNome(sc.nextLine());
         System.out.printf("\nDigite a idade do %s : ", a1.getNome());
         a1.setIdade(sc.nextInt());
+
 
         do {
             System.out.printf("\nBem vindo ao Sistema Escolar do Horizonte Inexplorado  !!");
@@ -26,7 +29,16 @@ public class TesteAluno {
             opcaoTesteAluno = sc.nextInt();
             switch (opcaoTesteAluno) {
                 case 1:
-                    a1.inserirnota();
+                    System.out.printf("\nDigite a primeira nota : ");
+                    a1.setNota1(sc.nextDouble());
+                    a1.verificarNotas();
+
+                    System.out.printf("\nDigite a segunda nota : ");
+                    a1.setNota2(sc.nextDouble());
+                    a1.verificarNotas();
+                    System.out.printf("\nDigite a terceira nota : ");
+                    a1.setNota3(sc.nextDouble());
+                    a1.verificarNotas();
                     break;
                 case 2:
                     a1.calcularMedia();
@@ -40,7 +52,7 @@ public class TesteAluno {
             }
 
         } while (opcaoTesteAluno != 0);
-
+        sc.close();
 
     }
 

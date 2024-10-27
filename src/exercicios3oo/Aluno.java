@@ -12,6 +12,7 @@ public class Aluno {
 
     public Aluno() {
         this.nome = "";
+        this.materia = "";
     }
 
     public Aluno(String nome, int idade, double n1, double n2, double n3, String materia) {
@@ -24,172 +25,20 @@ public class Aluno {
         this.materia = materia;
     }
 
+    public void verificarNotas() {
+        if (getNota1() < 0 || getNota1() > 10 || getNota2() < 0 || getNota2() > 10 || getNota3() < 0 || getNota3() > 10) {
+            System.out.printf("\nInsira uma nota de 0 a 10!");
+            System.exit(0);
+        }
+    }
+
     public double calcularMedia() {
+
         return (getNota1() + getNota2() + getNota3()) / 3;
     }
 
-    public void inserirnota() {
-        int opcao = 0;
-        int opcaoNOTAS = 0;
-        do {
-            System.out.printf("\nListas de Matérias na Escola do 1º ano do Ensino médio ");
-            System.out.printf("\n 1 | Matemática");
-            System.out.printf("\n 2 | Física");
-            System.out.printf("\n 3 | Química");
-            System.out.printf("\n 4 | Biologia");
-            System.out.printf("\n 5 | História");
-            System.out.printf("\n 6 | Geografia");
-            System.out.printf("\n 7 | Língua Portuguesa");
-            System.out.printf("\n 8 | Inglês // Espanhol");
-            System.out.printf("\n 9 | Educação Física");
-            System.out.printf("\n10 | Introdução à computação");
-            System.out.printf("\n11 | Manutenção e Configurações de Computadores");
-            System.out.printf("\n0 | Digite para sair");
-            System.out.printf("\n Digite o código da matéria : ");
-            opcaoNOTAS = sc.nextInt();
-
-
-            if (opcaoNOTAS == 1) {
-                setMateria("Matemática");
-                System.out.printf("\n 1 | Matemática");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 2) {
-                setMateria("Física");
-                System.out.printf("\n 2 | Física");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 3) {
-                System.out.printf("\n 3 | Química");
-                setMateria("Química");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 4) {
-                System.out.printf("\n 4 | Biologia");
-                setMateria("Biologia");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 5) {
-                setMateria("História");
-                System.out.printf("\n 5 | História");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 6) {
-                setMateria("Geografia");
-                System.out.printf("\n 6 | Geografia");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 7) {
-                setMateria("Língua Poruguesa");
-                System.out.printf("\n 7 | Língua Portuguesa");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 8) {
-                setMateria("História");
-                System.out.printf("\n 8 | Inglês // Espanhol");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 9) {
-                setMateria("Educação Física");
-                System.out.printf("\n 9 | Educação Física");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("D\nigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 10) {
-                setMateria("Introdução à computação");
-                System.out.printf("\n10 | Introdução à computação");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            } else if (opcaoNOTAS == 11) {
-                setMateria("Manutenção e Configurações de Computadores");
-                System.out.printf("\n11 | Manutenção e Configurações de Computadores");
-                System.out.printf("\nDigite a primeira nota do %s : ", getNome());
-                setNota1(sc.nextDouble());
-
-                System.out.printf("\nDigite a segunda nota do %s : ", getNome());
-                setNota2(sc.nextDouble());
-
-                System.out.printf("\nDigite a terceira nota do %s : ", getNome());
-                setNota3(sc.nextDouble());
-                break;
-            }
-
-            break;
-        } while (opcaoNOTAS != 0);
-
-    }
-
     public void verificarSituacao() {
-        if (calcularMedia() >= 7) {
+        if (calcularMedia() >= 6) {
             System.out.printf("A média do %s  foi : %.2f \nVocê foi Aprovado na materia de %s!", getNome(), calcularMedia(), getMateria());
         } else {
             System.out.printf("A média do %s  foi : %.2f \nVocê foi Reprovado na materia de %s!", getNome(), calcularMedia(), getMateria());
@@ -200,6 +49,7 @@ public class Aluno {
     public String toString() {
         return " \nNome do Aluno : " + nome +
                 "\nIdade do Aluno : " + idade +
+                "\n Materia do Aluno : " + materia +
                 "\n Nota 1 : " + nota1 +
                 "\n Nota 2 : " + nota2 +
                 "\n Nota 3 : " + nota3;
